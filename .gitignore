@@ -1,0 +1,11 @@
+.vs/
+bin/
+obj/
+packages/
+*.suo
+*.user
+*.userprefs
+grpc-client/bin/
+grpc-client/obj/
+grpc-server/bin/
+grpc-server/obj/

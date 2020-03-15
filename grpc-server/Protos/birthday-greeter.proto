@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "grpc_server";
+
+service BirthdayGreeter {
+    rpc GreetWithBirthdayMessage (PersonInfo) returns (BirthdayMessage);
+}
+
+message PersonInfo {
+    string name = 1;
+    string birthday = 2;
+}
+
+message BirthdayMessage {
+    string message = 1;
+}
