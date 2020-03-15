@@ -1,2 +1,0 @@
-obj\Debug\netcoreapp3.0/Birthday-greeterGrpc.cs \
-obj\Debug\netcoreapp3.0/BirthdayGreeter.cs: Protos/birthday-greeter.proto
